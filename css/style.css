@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header {
+  background-color: rgb(204, 17, 17);
+  color: #fff;
+  padding: 20px;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+}
+.boton_2 {
+  background-color: #5489de;
+  border-radius: 8%;
+  height: 50px;
+  width: 500px;
+  margin: 23px;
+  font-family: "Alfa Slab One", cursiva;
+  font-weight: 3000px;
+}
+
+.boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 4px solid #000;
+  border-radius: 20%;
+  height: 90px;
+  width: 90px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 0 #000;
+  
+}
+
+.boton:hover {
+  cursor: pointer;
+   border: 9px solid #f6f1f1;
+}
+
+.boton:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+
+.boton img {
+  max-height: 90%;
+  max-width: 90%;
+}
+
+/* Estilos para el contenido principal */
+main {
+  background-color: black;
+  padding: 10px;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  max-width: 70%;
+  height: auto;
+  margin-left: 40px;
+}
+
+/* estilos de la tabla  */
+
+.table {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 80px;
+  background-color: #5489de;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursiva;
+  font-weight: 800px;
+}
+
+td {
+  text-align: center;
+  padding: 60px;
+  background-color: #5489de;
+  border-radius: 20px;
+  font-family: "Alfa Slab One", cursiva;
+  text-align: center;
+}
+
+/* Estilos para footer */
+footer {
+  background-color: rgb(204, 17, 17);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
